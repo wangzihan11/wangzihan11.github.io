@@ -218,27 +218,12 @@
 <li>使用SayHello.js文件中的SayHello()函数进行alert(“hello”)</li>
 <li>使用SayHelloWorld.js文件中SayHelloWorld()函数，首先调用SayHello(),其次alert(“world”)</li>
 </ul>
-<h2 id="代码部分"><a href="#代码部分" class="headerlink" title="代码部分"></a>代码部分</h2><h3 id="SayHello-js"><a href="#SayHello-js" class="headerlink" title="SayHello.js"></a>SayHello.js</h3><pre><code class="javascript">function SayHello()&#123;
-    alert(&quot;hello&quot;);
-&#125;
-</code></pre>
-<h3 id="SayHellWorld-js"><a href="#SayHellWorld-js" class="headerlink" title="SayHellWorld.js"></a>SayHellWorld.js</h3><pre><code class="javascript">function SayHelloWorld()&#123;
-    SayHello();
-    alert(&#39;world&#39;);
-&#125;
-</code></pre>
-<h3 id="tryTwoJs-html"><a href="#tryTwoJs-html" class="headerlink" title="tryTwoJs.html"></a>tryTwoJs.html</h3><pre><code class="html">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;script src=&quot;D:\Code\Coding Follow Book\Javascript 权威指南\SayWorld.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;D:\Code\Coding Follow Book\Javascript 权威指南\SayHello.js&quot;&gt;&lt;/script&gt;
-        
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;script&gt;SayHelloWorld();&lt;/script&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
+<h2 id="代码部分"><a href="#代码部分" class="headerlink" title="代码部分"></a>代码部分</h2><h3 id="SayHello-js"><a href="#SayHello-js" class="headerlink" title="SayHello.js"></a>SayHello.js</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">SayHello</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    alert(<span class="string">&quot;hello&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="SayHellWorld-js"><a href="#SayHellWorld-js" class="headerlink" title="SayHellWorld.js"></a>SayHellWorld.js</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">SayHelloWorld</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    SayHello();</span><br><span class="line">    alert(<span class="string">&#x27;world&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="tryTwoJs-html"><a href="#tryTwoJs-html" class="headerlink" title="tryTwoJs.html"></a>tryTwoJs.html</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;D:\Code\Coding Follow Book\Javascript 权威指南\SayWorld.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;D:\Code\Coding Follow Book\Javascript 权威指南\SayHello.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">        </span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span>&gt;</span>SayHelloWorld();<span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 <h2 id="实验结果"><a href="#实验结果" class="headerlink" title="实验结果"></a>实验结果</h2><img src="/2021/11/04/html%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AA%E4%BA%92%E7%9B%B8%E5%BC%95%E7%94%A8%E7%9A%84js%E6%96%87%E4%BB%B6/image-20211104134935643.png" class="" title="image-20211104134935643"> 
 <img src="/2021/11/04/html%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AA%E4%BA%92%E7%9B%B8%E5%BC%95%E7%94%A8%E7%9A%84js%E6%96%87%E4%BB%B6/image-20211104135023696.png" class="" title="image-20211104135023696">
 
